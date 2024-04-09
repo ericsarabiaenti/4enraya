@@ -17,5 +17,6 @@ void main()
 	{
 		gameplay(tabla[0], tabla);
 		showTable(tabla);
+		ganador(tabla, &GAMEOVER);
 	}
 }
